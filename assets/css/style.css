@@ -91,5 +91,55 @@ html {
   }
   .content a {
     position: relative;
+  }
+
+  .content a img {
+    width: 48px;
+    height: 48px;
+     display: block;
+    margin:0 auto;
+    float:none;
+    margin-top:50px;
+  }
+  .content p {
+    font-family: 'Montserrat', sans-serif;
+    /*text-transform: uppercase;*/
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+  .content .center-text{
+    text-align:center;
+  }
   
+  .principal-header{
+    width: 50%;
+    height: 40%;
+    margin-top: 10px;
+  }
+  .projects-header{
+    margin-top:50px;
+    width: 90%;
+  }
+  
+  .logo-header {
+  width: 50%;
+  height: 40%;
+  margin-top: 20px;
+  opacity: 0.9;
+  }
+  .jump-woman {
+  position: absolute;
+  right: 15px;
+  top: 124px;
+  width: 45%;
+  height: 39%;
+  }
+  .cycle-guy {
+  position: absolute;
+  right: 15px;
+  width: 45%;
+  height: 40%;
   }
