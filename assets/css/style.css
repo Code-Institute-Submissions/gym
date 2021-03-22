@@ -1,145 +1,186 @@
 /*@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');*/
 html {
-    font-family: Arial;
-    font-size: 16px;
-    background: #222;
-  }
-  
-  .sidebar {
-    position: fixed;
-    width: 25%;
-    height: 100vh;
-    background: #000;
-  /*  background: #312450;*/
-    font-size: 0.65em;
-    min-width: 180px;
-  }
-  
-  .sidebar .profile-img{
-    height: 150px;
-    margin: 0 auto;
-    float: none;
-    display: block;
-    margin-top:100px;
-  }
-  .nav {
-    position: relative;
-    margin: 0 15%;
-    text-align: right;
-    top: 20%;
-    transform: translateY(-50%);
-    font-weight: bold;
-  }
-  
-  .nav ul {
-    list-style: none;
-  }
-  .nav ul li {
-    position: relative;
-    margin: 3.2em 0;
-  }
-  .nav ul li a {
-    line-height: 5em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.4em;
-    color: rgba(255, 255, 255, 0.35);
-    display: block;
-   /* transition: all ease-out 300ms;*/
-  }
-  .nav ul li.active a {
-    color: white;
-  }
-  .nav ul li:not(.active)::after {
-    opacity: 0.2;
-  }
-  .nav ul li:not(.active):hover a {
-    color: rgba(255, 255, 255, 0.75);
-  }
-  .nav ul li::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 0.2em;
-    background: black;
-    left: 0;
-    bottom: 0;
-    background-image: linear-gradient(to right, #999, #fff);
-  }
+  font-family: Arial;
+  font-size: 16px;
+  background: #222;
+}
 
-  .content {
-  
-    position: relative;
-    width: 75%;
-    float: right;
-    height: 100vh;
-  }
-  .content .container h1{
-    font-family: 'Montserrat', sans-serif;
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #000;
+  /*  background: #312450;*/
+  font-size: 0.65em;
+  min-width: 180px;
+}
+
+.sidebar .profile-img {
+  height: 150px;
+  margin: 0 auto;
+  float: none;
+  display: block;
+  margin-top: 100px;
+}
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 20%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  position: relative;
+  margin: 3.2em 0;
+}
+.nav ul li a {
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+  /* transition: all ease-out 300ms;*/
+}
+.nav ul li.active a {
+  color: white;
+}
+.nav ul li:not(.active)::after {
+  opacity: 0.2;
+}
+.nav ul li:not(.active):hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.nav ul li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #999, #fff);
+}
+
+.content {
+  position: relative;
+  width: 75%;
+  float: right;
+  height: 100vh;
+}
+.content .container h1 {
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 46px;
   color: white;
   text-transform: uppercase;
   margin-top: 10px;
   margin-left: 5px;
-  }
-  .content .container {
-    
-    height: 100%;
-    padding:50px;
-  }
-  .content a {
-    position: relative;
-  }
+}
+.content .container {
+  height: 100%;
+  padding: 50px;
+}
+.content a {
+  position: relative;
+}
 
-  .content a img {
-    width: 48px;
-    height: 48px;
-     display: block;
-    margin:0 auto;
-    float:none;
-    margin-top:50px;
-  }
-  .content p {
-    font-family: 'Montserrat', sans-serif;
-    /*text-transform: uppercase;*/
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    color: #FFF;
-    font-weight: 100;
-    margin-top: 20px;
-  }
-  .content .center-text{
-    text-align:center;
-  }
-  
-  .principal-header{
-    width: 50%;
-    height: 40%;
-    margin-top: 10px;
-  }
-  .projects-header{
-    margin-top:50px;
-    width: 90%;
-  }
-  
-  .logo-header {
+.content a img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  float: none;
+  margin-top: 50px;
+}
+.content p {
+  font-family: "Montserrat", sans-serif;
+  /*text-transform: uppercase;*/
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #fff;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.content .center-text {
+  text-align: center;
+}
+
+.principal-header {
+  width: 50%;
+  height: 40%;
+  margin-top: 10px;
+}
+.projects-header {
+  margin-top: 50px;
+  width: 90%;
+}
+
+.logo-header {
   width: 50%;
   height: 40%;
   margin-top: 20px;
   opacity: 0.9;
-  }
-  .jump-woman {
+}
+.jump-woman {
   position: absolute;
   right: 15px;
   top: 124px;
   width: 45%;
   height: 39%;
-  }
-  .cycle-guy {
+}
+.cycle-guy {
   position: absolute;
   right: 15px;
   width: 45%;
   height: 40%;
-  }
+}
+.portfolio {
+  width: 21%;
+  margin-top: 20px;
+  float: left;
+  margin-left: 20px;
+}
+.no-margin {
+  margin-left: 0px;
+}
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+.contact-text {
+  text-align: center;
+}
+:target {
+  display: block;
+  position: relative;
+  top: 120px;
+  visibility: hidden;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
