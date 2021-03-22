@@ -67,3 +67,29 @@ html {
     bottom: 0;
     background-image: linear-gradient(to right, #999, #fff);
   }
+
+  .content {
+  
+    position: relative;
+    width: 75%;
+    float: right;
+    height: 100vh;
+  }
+  .content .container h1{
+    font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 5px;
+  }
+  .content .container {
+    
+    height: 100%;
+    padding:50px;
+  }
+  .content a {
+    position: relative;
+  
+  }
