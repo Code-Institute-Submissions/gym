@@ -364,3 +364,20 @@ hr {
   position: relative;
   bottom: -20px;
 }
+
+.wrapper ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 29px;
+}
+
+ .wrapper  li {
+  margin-bottom: 15px;
+  color:black;
+}
+ .wrapper li:before {
+  font-size: 1.3rem;
+  color: orange;
+  margin-right: 3px;
+}
