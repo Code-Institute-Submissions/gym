@@ -331,3 +331,20 @@ pricing styles start from here*/
     margin-top: -30px;
     transition: margin-top 0.3s linear;
   }
+
+  .name {
+    color: #565656;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-top: -5px;
+  }
+  
+  .price {
+    margin-top: 7px;
+    font-weight: bold;
+  }
+  .price::after {
+    content: " / month per user";
+    font-weight: normal;
+  }
+  
