@@ -292,3 +292,10 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
+
+/*
+pricing styles start from here*/
+.move-left{
+  position: relative;left:-50px;
+  }
+  
