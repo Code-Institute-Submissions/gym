@@ -312,4 +312,22 @@ pricing styles start from here*/
     margin-bottom:150px;
     min-height: 100vh;
   }
-  
+  .package {
+    box-sizing: border-box;
+    width: 301px;
+    height: 380px;
+    border: 3px solid #e8e8e8;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 24px;
+    text-align: center;
+    background: white;
+    float: left;
+    transition: margin-top 0.5s linear;
+    position: relative;
+    margin-right: 11px;
+  }
+  .package:hover {
+    margin-top: -30px;
+    transition: margin-top 0.3s linear;
+  }
